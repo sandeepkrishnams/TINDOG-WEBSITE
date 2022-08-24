@@ -1,0 +1,177 @@
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+  padding: 2.5% 12%;
+}
+body{
+  font-family: "Montserrat";
+}
+h1{
+  font-family: Montserrat-black;
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: 900;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+  position: relative;
+  z-index: -1;
+}
+#navbar a{
+  color: white;
+}
+#navbar{
+  color:white;
+}
+#home{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+button{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+#googleplaylogo{
+  height: 30px;
+  width: 30px;
+}
+#maclogo{
+  height: 30px;
+  width: 30px;
+  padding-bottom: 0.3rem;
+  padding-top: -0.3rem;
+}
+#TinDog{
+  font-family: Ubuntu;
+  font-size: 30px;
+}
+#home h1{
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.4;
+}
+#homebar{
+  margin-right: 50px;
+}
+#container-row{
+  padding-top: 70px;
+}
+#iphone-img{
+  width:60%;
+  transform: rotate(25deg);
+  padding-left: 4rem;
+  padding-top: 10%;
+  position: absolute;
+  top:70px;
+  left:20%;
+  z-index: -1;
+}
+.container-bottom{
+  padding-bottom: 7%;
+}
+@media (max-width:1170px) {
+  #title{
+    text-align: center;
+  }
+}
+/* FESTURES STARTS */
+#features{
+padding: 10% 20%;
+background-color: white;
+position: relative;
+z-index:10;
+}
+.feature-box{
+  text-align: center;
+  padding:3%;
+}
+.icon{
+  width: 60px;
+  height:60px;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  transform: scale3d(1.2,1.2,1.2);
+}
+/* FEATURES ENDS */
+
+
+
+/* TESTIMONIALS STARTS */
+    #testimonials{
+      text-align: center;
+      background-color: #ff4c68;
+      color: #fff;
+    }
+    #testimonials img{
+      width:15%;
+      border-radius: 100%;
+    }
+    #carousel-slidebars{
+      position: relative;
+      top: 50px;
+    }
+    .carousel-item{
+      padding: 5% 25%;
+    }
+/* TESTIMONIALS ENDS */
+
+
+/* PRESS STARTS */
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.presslogo{
+  width:15%;
+  margin:20px 20px 20px;
+}
+/* PRESS ENDS */
+
+/* PRICING STARTS */
+#pricing{
+  padding: 5% 10%;
+  text-align:center;
+}
+.Pricing-coloum{
+  padding:3% 2%;
+}
+
+
+/* PRICING ENDS */
+
+/* CTA SECTION */
+
+   #cta{
+     background-color: #ff4c68;
+     color: white;
+
+      padding: 8% 10%;
+      text-align:center;
+   }
+  #cta-heading{
+    font-size: 4rem;
+    font-family: Montserrat-Black;
+    font-weight: 900;
+    padding: 2% 10%;
+  }
+  /* FOOTER SECTION */
+
+  #footer{
+   padding: 7% 10%;
+   text-align: center;
+  }
+  #footer p{
+    padding-top: 10px;
+  }
